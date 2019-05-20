@@ -1,0 +1,2 @@
+This tranformed from UniProt the data file into a csv file, but only some properties are taken and not all in the data file. 
+Also, a cypher query is generate to integrate the data from the tsv into Neo4j with neo4j-shell or cypher-shell.
