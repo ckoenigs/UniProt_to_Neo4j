@@ -1,2 +1,3 @@
-This tranformed from UniProt the data file into a csv file, but only some properties are taken and not all in the data file. 
-Also, a cypher query is generate to integrate the data from the tsv into Neo4j with neo4j-shell or cypher-shell.
+Parse a part of the SwissProt xml file to a csv file and generate a cypher file. However, only human proteins are prepared and integrated into Noe4j with neo4j cypher-shell.
+It extracts information such as the ID, entry, status, sequence length, all AC-numbers, synonyms, general function, pathways, subcellular location, protein existence, external references, gene name, gene id, GO classifier, AS sequence, and more.
+Also, a cypher query is generate to integrate the data from the tsv into Neo4j cypher-shell.
